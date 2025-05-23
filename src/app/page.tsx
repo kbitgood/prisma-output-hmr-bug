@@ -1,5 +1,4 @@
-import prisma from "@/lib/prisma";
-import { Prisma } from "@/app/generated";
+import prisma, { Prisma } from "@/lib/prisma";
 
 export default async function Home() {
   // THIS DOES NOT WORK AFTER HMR
